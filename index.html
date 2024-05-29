@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usi</title>
+    <link  rel="stylesheet"  href="https://unpkg.com/@ussebastian/kitdigital@latest/dist/css/main.css"/>
+</head>
+<body>
+    <section class="w-100">
+        <header class="w-100">
+          <nav class="uss-topnav hide-on-mobile">
+            <div class="container uss-topnav-wrapper">
+                <button class="uss-btn uss-btn--theme-toggle" onclick="window.toggleTheme()">
+                    <i class="uss-icon"></i>
+                  </button>
+              <ul class="uss-topnav-items uss-topnav-items--responsive">
+                <li class="uss-topnav__menu-item uss-skip-to-content" tabindex="-2">
+                  <a href="#main" class="uss-topnav__menu-item-link">Ir al contenido
+                    <i class="uss-icon ri-arrow-right-line uss-icon--xs"></i>
+                  </a>
+                </li>
+                <li class="uss-topnav__menu-item uss-skip-to-content" tabindex="-1">
+                  <a href="#mainmenu-home" class="uss-topnav__menu-item-link">
+                    Ir al menú principal
+                    <i class="uss-icon ri-arrow-right-line uss-icon--xs"></i>
+                  </a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link">Item topbar</a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link uss-topnav__menu-item-link--external">Item topbar</a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link">Item topbar</a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link">Item topbar</a>
+                </li>
+              </ul>
+              <ul class="uss-topnav-items">
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link uss-topnav__menu-item-link--icon">
+                    <i class="uss-icon ri-facebook-line"></i>
+                  </a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link uss-topnav__menu-item-link--icon">
+                    <i class="uss-icon ri-twitter-line"></i>
+                  </a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link uss-topnav__menu-item-link--icon">
+                    <i class="uss-icon ri-instagram-line"></i>
+                  </a>
+                </li>
+                <li class="uss-topnav__menu-item">
+                  <a href="#" class="uss-topnav__menu-item-link uss-topnav__menu-item-link--icon">
+                    <i class="uss-icon ri-youtube-line"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="mainmenu" class="uss-mainnav hide-on-mobile">
+            <div class="container uss-mainnav__wrap">
+              <a id="mainmenu-home" href="#uss" class="uss-nav__logo-link">
+                <picture>
+                  <source srcset="https://dummyimage.com/310x96/" media="(prefers-color-scheme:dark)">
+                  <img class="uss-nav__logo" src="https://dummyimage.com/220x68/" height="68px">
+                </picture>
+              </a>
+              <div class="uss-mainnav__menu">
+                <ul class="uss-mainnav__items">
+                  <li class="uss-mainnav__item">
+                    <a href="#" class="uss-mainnav__item-link"> Admisión </a>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <a href="#" class="uss-mainnav__item-link"> Postgrados </a>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <button class="uss-mainnav__item-link" data-subitem-ref="0">
+                      Menu 2
+                      <i class="uss-icon ri-arrow-drop-down-line"></i>
+                    </button>
+                    <div class="uss-mainnav__subitems-wrapper" data-subitem-target="0">
+                      <ul class="uss-mainnav__sub-items">
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Investigación1</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Doctorados</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Informativos VRID</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Fondos concursables I+D</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Texto label externo
+                            <i class="uss-icon ri-external-link-line ri-s"></i>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="uss-mainnav__sub-items">
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Investigación1</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Doctorados</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Informativos VRID</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Fondos concursables I+D</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <a href="#" class="uss-mainnav__item-link"> Sedes </a>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <a href="#" class="uss-mainnav__item-link"> Investigracion </a>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <a href="#" class="uss-mainnav__item-link"> Facultades </a>
+                  </li>
+                  <li class="uss-mainnav__item">
+                    <button class="uss-mainnav__item-link" data-subitem-ref="1">
+                      Universidad
+                      <i class="uss-icon ri-arrow-drop-down-line"></i>
+                    </button>
+                    <div class="uss-mainnav__subitems-wrapper" data-subitem-target="1">
+                      <ul class="uss-mainnav__sub-items">
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Investigación1</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Doctorados</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Informativos VRID</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Fondos concursables I+D</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Texto label externo
+                            <i class="uss-icon ri-external-link-line ri-s"></i>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="uss-mainnav__sub-items">
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Investigación1</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Doctorados</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Informativos VRID</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Fondos concursables I+D</a>
+                        </li>
+                      </ul>
+                      <ul class="uss-mainnav__sub-items">
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Informativos VRID</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Fondos concursables I+D</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Texto label externo
+                            <i class="uss-icon ri-external-link-line ri-s"></i>
+                          </a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Oficina de transferencia y licenciamiento lorem ipsum dolor sit</a>
+                        </li>
+                        <li class="uss-mainnav__item">
+                          <a class="uss-mainnav__subitem-link" href="#">Item 7</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <nav class="uss-mainnav--mobile show-on-mobile">
+            <div class="container uss-mainnav__wrap">
+              <div class="uss-mainnav__topnav">
+                <a href="#uss" class="uss-nav__logo-link">
+                  <picture>
+                    <source srcset="https://dummyimage.com/310x96/" media="(prefers-color-scheme:dark)">
+                    <img class="uss-nav__logo" src="https://dummyimage.com/155x48/" height="48px">
+                  </picture>
+                </a>
+                <div class="uss-nav__icons">
+                  <button data-toggle-nav-mobile class="uss-btn uss-btn--icon">
+                    <i class="uss-icon ri-menu-line"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="container uss-mainnav__menu">
+                <ul class="uss-menu-accordion">
+                  <li class="uss-menu-accordion__item">
+                    <a href="#" class="uss-menu-accordion__item-link"> Admisión </a>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <a href="#" class="uss-menu-accordion__item-link"> Postgrados </a>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <button class="uss-menu-accordion__item-link" data-subitem-ref="0">
+                      Menu 2
+                      <i class="uss-icon ri-arrow-drop-down-line"></i>
+                    </button>
+                    <ul class="uss-menu-accordion__sub-items" data-subitem-target="0">
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Doctorados</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <div class="uss-menu-accordion__subitem-link-subtitle">Title</div>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Informativos VRID</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Fondos concursables I+D</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">
+                          Texto label externo
+                          <i class="uss-icon ri-external-link-line ri-s"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <a href="#" class="uss-menu-accordion__item-link"> Sedes </a>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <a href="#" class="uss-menu-accordion__item-link"> Investigracion </a>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <a href="#" class="uss-menu-accordion__item-link"> Facultades y Carreras </a>
+                  </li>
+                  <li class="uss-menu-accordion__item">
+                    <button class="uss-menu-accordion__item-link" data-subitem-ref="1">
+                      Universidad
+                      <i class="uss-icon ri-arrow-drop-down-line"></i>
+                    </button>
+                    <ul class="uss-menu-accordion__sub-items" data-subitem-target="1">
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Doctorados</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <div class="uss-menu-accordion__subitem-link-subtitle">Title</div>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Informativos VRID</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">Fondos concursables I+D</a>
+                      </li>
+                      <li class="uss-menu-accordion__subitem">
+                        <a class="uss-menu-accordion__subitem-link" href="#">
+                          Texto label externo
+                          <i class="uss-icon ri-external-link-line ri-s"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+      </section>
+      <section class="w-100">
+        <div class="uss-hero row">           
+          <div class="uss-hero__content-container uss-hero__content-container--inverted col-md-4 offset-md-1 order-2">
+            <div class="uss-hero__content">
+              <p>Comprometidos con tu futuro</p>
+              <h1 class="uss-hero__title">Admisión</h1>
+              <p class="uss-hero__description">
+                Se parte de nuestra universidad y encontraras las mejores enseñanzas, comunidad escolar. Estamnos dedicados a ti y tu desarrollo profesional.
+              </p>
+              <div class="uss-hero__buttons">
+                <div class="flex gap-12">                               
+                  <button class="uss-btn uss-btn--primary" data-uss-modal-target="modal-3">
+                    Admisión
+                  </button>
+                </div>
+                <div class="col-2 mb-24">                  
+                    <span class="uss-badge uss-badge--neutral">Hero</span>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="uss-hero__image-container uss-hero__image-container--inverted col-md-6 order-1">
+            <div class="uss-hero__wrapper">
+              <img class="uss-hero__image" src="https://razonpublica.com/wp-content/uploads/2023/05/estudiantes-universitarios-profesores-universidades-Francisco-Diaz.jpg" alt="Hero image">
+            </div>
+          </div>
+         
+        </div>
+      </section>
+      <section class="uss-divider my-40 px-24"></section>
+      <section class="row my-12 px-24">
+        <h3 class="my-12">Carreras  <div class="col-2 mb-24">                  
+            <span class="uss-badge uss-badge--info">Cards</span>
+          </div></h3>
+        
+        <div class="col-sm-4 uss-card--equal-height mb-24">
+          <div class="uss-card">
+            <img lazy class="uss-card__img" src="https://dummyimage.com/640x16:9/" alt="dummyimage">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20">Tag secundario</a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <a href="">
+                <div class="h4 mb-16">Titulo de la card</div>
+                <p class="mb-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                  scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+              </a>
+              <a href="#" class="uss-btn uss-btn--tertiary mt-auto">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 uss-card--equal-height mb-24">
+          <div class="uss-card uss-card--background-alt">
+            <img lazy class="uss-card__img" src="https://dummyimage.com/640x4:3/" alt="dummyimage">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--primary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <p class="mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary mt-auto">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 uss-card--equal-height mb-24">
+          <div class="uss-card uss-card--border-none">
+            <img lazy class="uss-card__img" src="https://dummyimage.com/640x4:3/" alt="dummyimage">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h4 mb-20">Titulo de la card</div>
+              <p class="mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary mt-auto">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="uss-divider my-40 px-24"></section>
+      <div class="col-2 mb-24">                  
+        <span class="uss-badge uss-badge--success">Carousel</span>
+      </div>
+      <section class="px-24" data-uss-carousel="uss-carousel-cards" data-uss-title="Lectus magna fringilla urna" data-uss-visible-items="4" data-uss-draggable>
+        
+        <div class="uss-carousel-cards__item-container">
+            
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uss-carousel-cards__item-container">
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uss-carousel-cards__item-container">
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uss-carousel-cards__item-container">
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uss-carousel-cards__item-container">
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <a href="#" class="uss-tag uss-tag--secondary mb-20"> Tag secundario </a>
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="uss-carousel-cards__item-container">
+          <div class="uss-card">
+            <div class="uss-card__body">
+              <div class="uss-tooltip" data-uss-tooltip="1">
+                <h4>titulo</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+              </div>
+              <a href="#" class="uss-tag uss-tag--secondary mb-20" data-uss-tooltip-target="1">
+                Tag secundario
+              </a>
+      
+              <div class="overline text-color--alt">Metadato introductorio</div>
+              <div class="h5 mb-20">Titulo de la card</div>
+              <p class="p-size--sm mb-32">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh consectetur consequat
+                scelerisque donec imperdiet donec. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <a href="#" class="uss-btn uss-btn--tertiary">
+                Botón terciario
+                <i class="uss-icon ri-arrow-right-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-100">
+        <div class="uss-tab">
+          <ul class="uss-tab__nav">
+            <li class="uss-tab__nav-item">
+              <button aria-current="page" class="uss-tab__nav-link active" data-uss-tabtarget="01">
+               Horarios y valores
+              </button>
+            </li>
+            <li class="uss-tab__nav-item">
+              <button aria-current="page" class="uss-tab__nav-link" data-uss-tabtarget="02">
+               Reseñas
+              </button>
+            </li>
+            <li class="uss-tab__nav-item">
+              <button aria-current="page" class="uss-tab__nav-link" data-uss-tabtarget="03">
+                Contacto
+              </button>
+            </li>
+          </ul>
+          <div class="uss-tab__body p-20">
+            <div class="uss-tab__body-content" id="01" data-uss-tab="01" data-uss-show>
+                <table class="uss-table">
+                    <thead>
+                      <tr class="uss-table__row">
+                        <th class="uss-table__cell uss-table__cell--header">Carrera</th>
+                        <th class="uss-table__cell uss-table__cell--header">Diurno</th>
+                        <th class="uss-table__cell uss-table__cell--header">Vespertino</th>
+                        <th class="uss-table__cell uss-table__cell--header uss-table__cell--align-right">
+                          Valor arancel
+                        </th>
+                        <th class="uss-table__cell uss-table__cell--header uss-table__cell--align-right">
+                          Valor total
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="uss-table__row">
+                        <td class="uss-table__cell">Ingenieria en Informatica</td>
+                        <td class="uss-table__cell">9:00 - 13:00</td>
+                        <td class="uss-table__cell">19:00 - 23:00</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 125.000</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 6.000.000</td>
+                      </tr>
+                      <tr class="uss-table__row">
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                      </tr>
+                      <tr class="uss-table__row">
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                      </tr>
+                      <tr class="uss-table__row">
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                      </tr>
+                      <tr class="uss-table__row">
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell">Cell content</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                        <td class="uss-table__cell uss-table__cell--align-right">$ 999.000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+            </div>
+            <div class="uss-tab__body-content" id="02" data-uss-tab="02">
+                <section>
+                    <div class="uss-accordion">
+                      <div class="uss-accordion__item" data-uss-accordeon-open>
+                        <div class="uss-accordion__header">
+                          <button class="uss-accordion__button">
+                            <h6 class="uss-accordion__title">
+                              Reseña - 1
+                            </h6>
+                            <i class="uss-icon uss-accordion__icon ri-arrow-drop-down-line"></i>
+                          </button>
+                        </div>
+                        <div class="uss-accordion__collapse">
+                          <div class="uss-accordion__body">
+                            <section class="flex flex-wrap gap-24">
+                                <div>
+                                  <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="dummyimage" class="img-cover example-height aspect-ratio-1-1">
+                                </div>   
+                              <div style="display: flex; flex-direction: column;gap:20px;">
+                                <div><span class="uss-badge uss-badge--success">Ignacio Muñoz</span></div>
+                                <p>   La universidad san ignacio es la mejor universidad que haya encontrado en mi vida.</p>
+                              </div>
+                                                             
+                              </section>
+                              <!-- estilos del ejemplo -->
+                              <style>
+                                .example-height {
+                                  width: 200px;
+                                }
+                              </style>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="uss-accordion__item" id="item2">
+                        <div class="uss-accordion__header">
+                          <button class="uss-accordion__button">
+                            <h6>Reseña - 2</h6>
+                            <i class="uss-icon uss-accordion__icon ri-arrow-drop-down-line"></i>
+                          </button>
+                        </div>
+                        <div class="uss-accordion__collapse">
+                          <div class="uss-accordion__body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables. It's also worth noting that just about any HTML can go within the
+                            <code>.uss-accordion__body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="uss-accordion__item">
+                        <div class="uss-accordion__header">
+                          <button class="uss-accordion__button">
+                            <h6>Reseña - 3</h6>
+                            <i class="uss-icon uss-accordion__icon ri-arrow-drop-down-line"></i>
+                          </button>
+                        </div>
+                        <div class="uss-accordion__collapse">
+                          <div class="uss-accordion__body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables. It's also worth noting that just about any HTML can go within the
+                            <code>.uss-accordion__body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="uss-accordion__item" id="item5">
+                        <div class="uss-accordion__header">
+                          <button class="uss-accordion__button">
+                            <h6>Reseña - 4</h6>
+                            <i class="uss-icon uss-accordion__icon ri-arrow-drop-down-line"></i>
+                          </button>
+                        </div>
+                        <div class="uss-accordion__collapse">
+                          <div class="uss-accordion__body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables. It's also worth noting that just about any HTML can go within the
+                            <code>.uss-accordion__body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="uss-accordion__item">
+                        <div class="uss-accordion__header">
+                          <button class="uss-accordion__button">
+                            <h6>Reseña - 5</h6>
+                            <i class="uss-icon uss-accordion__icon ri-arrow-drop-down-line"></i>
+                          </button>
+                        </div>
+                        <div class="uss-accordion__collapse">
+                          <div class="uss-accordion__body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default
+                            variables. It's also worth noting that just about any HTML can go within the
+                            <code>.uss-accordion__body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+            <div class="uss-tab__body-content" id="03" data-uss-tab="03">
+                <section class="w-100">
+                    <div class="uss-hero row">
+                      <div class="uss-hero__content-container col-md-4 order-2 order-md-1">
+                        <div class="uss-hero__content">                         
+                          <h4 class="uss-hero__title">Contacto</h4>
+                          <form class="uss-form">
+                            <div class="uss-form-group mb-40">
+                              <label for="inputExample" class="uss-form__label">
+                                Label normal
+                                <i class="uss-icon ri-question-line"></i>
+                              </label>
+                              <input type="text" class="uss-form__input" id="inputExample" aria-describedby="inputExample">
+                              <div class="uss-form__help">Mensaje de contexto.</div>
+                            </div>                          
+                              <div class="uss-form-group mb-40">
+                                <label for="inputExample" class="uss-form__label">
+                                  Label normal
+                                  <i class="uss-icon ri-question-line"></i>
+                                </label>
+                                <input type="text" class="uss-form__input" id="inputExample" aria-describedby="inputExample">
+                                <div class="uss-form__help">Mensaje de contexto.</div>
+                              </div>
+                              <div class="uss-form-group">
+                                <label for="inputExample" class="uss-form__label">
+                                  Label
+                                  <i class="uss-icon ri-question-line"></i>
+                                </label>
+                                <select class="uss-form__input" id="inputExample">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                                <div class="uss-form__help">Mensaje de contexto.</div>
+                              </div>
+                              <div class="uss-form-group">
+                                <label class="uss-form__label uss-form__label--margin-plus">
+                                  Checkboxes
+                                  <i class="uss-icon ri-question-line"></i>
+                                </label>
+                                <input id="checkbox-1" type="checkbox" value="select an op" name="checkbox-group">
+                                <label class="uss-form__radio-label" for="checkbox-1">Use radio buttons if the meaning of the empty</label>
+                                <input id="checkbox-2" type="checkbox" value="between these" name="checkbox-group">
+                                <label class="uss-form__radio-label" for="checkbox-2"> Between these values </label>
+                                
+                              </div>
+                              <div class="uss-form-group">
+                                <label class="uss-form__label uss-form__label--margin-plus">
+                                  Radio button
+                                  <i class="uss-icon ri-question-line"></i>
+                                </label>
+                                <input id="radio-1" type="radio" value="select an op" name="radio-group">
+                                <label class="uss-form__radio-label" for="radio-1">Use radio buttons if the meaning of the empty</label>
+                                <input id="radio-2" type="radio" value="between these" name="radio-group">
+                                <label class="uss-form__radio-label" for="radio-2"> Between these values </label>
+                              
+                              </div>
+                              <div class="uss-form-group mb-40">
+                                <label for="inputEmail" class="uss-form__label">
+                                  Text Area
+                                  <i class="uss-icon ri-question-line"></i>
+                                </label>
+                                <textarea class="uss-form__input" name="textarea" rows="5" cols="50">
+                            Write something here
+                                  </textarea>
+                                <div id="emailHelp" class="uss-form__help">Mensaje de contexto.</div>
+                              </div>
+                              <a href="#" class="uss-btn uss-btn--primary">
+                                Enviar formulario
+                                <i class="uss-icon ri-arrow-right-circle-line"></i>
+                              </a>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="uss-hero__image-container col-md-6 offset-md-1 order-1 order-md-2">
+                        <section class="row gap-32">
+                            <div class="uss-alert-message uss-alert-message--info" id="modalInfo">
+                              <button class="uss-alert-message__close-button" data-uss-close-target="#modalInfo">
+                                <i class="uss-icon ri-close-line uss-alert-message__close-icon"></i>
+                              </button>
+                              <div class="uss-alert-message__content">
+                                <i class="uss-icon ri-information-line ri-xl uss-alert-message__icon"></i>
+                                <div class="uss-alert-message__text">
+                                  <h3 class="h5 uss-alert-message__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis
+                                  </h3>
+                                  <p class="uss-alert-message__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="uss-alert-message uss-alert-message--success" id="modalSuccess">
+                              <button class="uss-alert-message__close-button" data-uss-close-target="#modalSuccess">
+                                <i class="uss-icon ri-close-line uss-alert-message__close-icon"></i>
+                              </button>
+                              <div class="uss-alert-message__content">
+                                <i class="uss-icon ri-information-line ri-xl uss-alert-message__icon"></i>
+                                <div class="uss-alert-message__text">
+                                  <h3 class="h5 uss-alert-message__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis
+                                  </h3>
+                                  <p class="uss-alert-message__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="uss-alert-message uss-alert-message--warning" id="modalWarning">
+                              <button class="uss-alert-message__close-button" data-uss-close-target="#modalWarning">
+                                <i class="uss-icon ri-close-line uss-alert-message__close-icon"></i>
+                              </button>
+                              <div class="uss-alert-message__content">
+                                <i class="uss-icon ri-information-line ri-xl uss-alert-message__icon"></i>
+                                <div class="uss-alert-message__text">
+                                  <h3 class="h5 uss-alert-message__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis
+                                  </h3>
+                                  <p class="uss-alert-message__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="uss-alert-message uss-alert-message--error" id="modalError">
+                              <button class="uss-alert-message__close-button" data-uss-close-target="#modalError">
+                                <i class="uss-icon ri-close-line uss-alert-message__close-icon"></i>
+                              </button>
+                              <div class="uss-alert-message__content">
+                                <i class="uss-icon ri-information-line ri-xl uss-alert-message__icon"></i>
+                                <div class="uss-alert-message__text">
+                                  <h3 class="h5 uss-alert-message__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis
+                                  </h3>
+                                  <p class="uss-alert-message__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                                    venenatis, lectus magna fringilla urna.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <!-- align left (default) modals -->
+        <dialog class="uss-modal" data-uss-modal-id="modal-0">
+          <div class="uss-modal__body">
+            <div class="uss-modal__icon uss-modal__icon--sm uss-modal__icon--info">
+              <i class="uss-icon ri-information-line"></i>
+            </div>
+    
+            <div class="w-100 uss-modal__body-content">
+              <h4>Consectetur adipiscing #1</h4>
+              <p>
+                Lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum
+                facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam
+                quis
+              </p>
+            </div>
+          </div>
+          <div class="uss-modal__footer">
+            <a href="#" class="uss-btn uss-btn--secondary col-3 justify-content-center" data-uss-modal-close-on-click>
+              Volver
+            </a>
+            <a href="#" class="uss-btn uss-btn--primary col-3 justify-content-center" data-uss-modal-close-on-click onclick="alert('Acción de prueba')">
+              Acción
+            </a>
+          </div>
+        </dialog>
+        <dialog class="uss-modal" data-uss-modal-id="modal-1">
+          <div class="uss-modal__body">
+            <div class="uss-modal__icon uss-modal__icon--sm uss-modal__icon--warning">
+              <i class="uss-icon ri-alert-line"></i>
+            </div>
+    
+            <div class="w-100 uss-modal__body-content">
+              <h4>Consectetur adipiscing #2</h4>
+              <p>
+                Lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum
+                facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam
+                quis
+              </p>
+            </div>
+          </div>
+          <div class="uss-modal__footer">
+            <a href="#" class="uss-btn uss-btn--secondary col-3 justify-content-center" data-uss-modal-close-on-click>
+              Volver
+            </a>
+            <a href="#" class="uss-btn uss-btn--primary col-3 justify-content-center" data-uss-modal-close-on-click onclick="alert('Acción de prueba')">
+              Acción
+            </a>
+          </div>
+        </dialog>
+        <dialog class="uss-modal" data-uss-modal-id="modal-2">
+          <div class="uss-modal__body">
+            <div class="uss-modal__icon uss-modal__icon--sm uss-modal__icon--error">
+              <i class="uss-icon ri-information-line"></i>
+            </div>
+    
+            <div class="w-100 uss-modal__body-content">
+              <h4>Consectetur adipiscing #3</h4>
+              <p>
+                Lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum
+                facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam
+                quis
+              </p>
+            </div>
+          </div>
+          <div class="uss-modal__footer">
+            <a href="#" class="uss-btn uss-btn--secondary col-3 justify-content-center" data-uss-modal-close-on-click>
+              Volver
+            </a>
+            <a href="#" class="uss-btn uss-btn--primary col-3 justify-content-center" data-uss-modal-close-on-click onclick="alert('Acción de prueba')">
+              Acción
+            </a>
+          </div>
+        </dialog>
+        <dialog class="uss-modal" data-uss-modal-id="modal-3">
+          <div class="uss-modal__body">
+            <div class="uss-modal__icon uss-modal__icon--sm uss-modal__icon--success">
+              <i class="uss-icon ri-information-line"></i>
+            </div>
+    
+            <div class="w-100 uss-modal__body-content">
+              <h4>Quieres ir a Admisión?</h4>
+              <p>
+               Si eliges esta universidad no te arrepentiras haz click en ir a Admisión.
+              </p>
+            </div>
+          </div>
+          <div class="uss-modal__footer">
+            <a href="#" class="uss-btn uss-btn--secondary col-3 justify-content-center" data-uss-modal-close-on-click>
+              Volver
+            </a>
+            <a href="admision.html" class="uss-btn uss-btn--primary col-3 justify-content-center" data-uss-modal-close-on-click >
+              Ir a Admisión
+            </a>
+          </div>
+        </dialog>
+      </section>
+      <footer class="uss-footer w-100">
+        <div class="uss-footer-sublinks">
+          <div class="container py-128">
+            <div class="row gap-64">
+              <div class="col-md-3">
+                <aside class="uss-linked-list">
+                  <h6 class="h6 mb-20">La uiversidad</h6>
+                  <ul class="uss-linked-list__items">
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link">
+                        Proyecto Educativo
+                        <i class="uss-icon ri-external-link-line"></i>
+                      </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Nuestra Institución </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> ¿Por qué la USS? </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Extesión Cultural </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Nuestras Redes Sociales </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Vinculación con el Medio </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link">
+                        Trabaja en la USS
+                        <i class="uss-icon ri-external-link-line"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+              <div class="col-md-3">
+                <aside class="uss-linked-list">
+                  <h6 class="h6 mb-20">Estudiantes</h6>
+                  <ul class="uss-linked-list__items">
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link">
+                        Bienestar Estudiantil
+                        <i class="uss-icon ri-external-link-line"></i>
+                      </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Vida Universitaria </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Deportes </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Voluntariados </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Desarrollo y Liderazgo </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Nuevos Sebastianos </a>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+              <div class="col-md-3">
+                <aside class="uss-linked-list">
+                  <h6 class="h6 mb-20">Acreditación</h6>
+                  <ul class="uss-linked-list__items">
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link">
+                        Acreditación Institucional
+                        <i class="uss-icon ri-external-link-line"></i>
+                      </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Acreditación de Carreras y Programas </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Equipo </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Sitios de Interés </a>
+                    </li>
+                    <li class="uss-linked-list__item">
+                      <a href="#" class="uss-btn uss-btn--link"> Desarrollo y Liderazgo </a>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="uss-footer-main">
+          <div class="container uss-footer__logos">
+            <img class="uss-logo hide-on-mobile" src="https://dummyimage.com/260x80/" alt="Logo USS">
+            <img class="uss-logo show-on-mobile" src="https://dummyimage.com/385x120/" alt="Logo Acreditación USS">
+            <img class="uss-logo" src="https://dummyimage.com/337x80/" alt="Logo USS">
+          </div>
+        </div>
+        <div class="dark uss-footer-baseline">
+          <div class="container">
+            <div class="row uss-footer__wrapper">
+              <div class="col-xl-6 uss-footer__links">
+                <ul class="uss-footer__nav">
+                  <li class="uss-footer__item">
+                    <a class="uss-footer__link" href="http://">Ver politicas de privacidad</a>
+                  </li>
+                  <li>
+                    <a class="uss-footer__link" href="http://">Términos legales</a>
+                  </li>
+                  <li>
+                    <a class="uss-footer__link" href="http://">Preguntas frecuentes</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xl-6 uss-footer__phone-socials">
+                <a class="uss-link uss-link--phone" href="phone:600 771 3000">
+                  <i class="uss-icon ri-phone-line"></i>
+                  600 771 3000
+                </a>
+                <ul class="uss-footer__nav uss-footer__nav-social">
+                  <li class="uss-footer__item">
+                    <a class="uss-btn uss-btn--icon uss-btn--icon-sm" href="">
+                      <i class="uss-icon ri-s ri-facebook-line"></i>
+                    </a>
+                  </li>
+                  <li class="uss-footer__item">
+                    <a class="uss-btn uss-btn--icon uss-btn--icon-sm" href="">
+                      <i class="uss-icon ri-s ri-twitter-line"></i>
+                    </a>
+                  </li>
+                  <li class="uss-footer__item">
+                    <a class="uss-btn uss-btn--icon uss-btn--icon-sm" href="">
+                      <i class="uss-icon ri-s ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li class="uss-footer__item">
+                    <a class="uss-btn uss-btn--icon uss-btn--icon-sm" href="">
+                      <i class="uss-icon ri-s ri-youtube-line"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>   
+      <script
+  crossorigin="anonymous"
+  type="module"
+  src="https://unpkg.com/@ussebastian/kitdigital@latest/dist/js/main.js"
+></script>
+</body>
+</html>
